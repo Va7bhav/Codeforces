@@ -7,15 +7,13 @@ int main() {
     while (T--) {
         int a, b, n; cin >> a >> b >> n;
         int op = 0;
-        if (a > b) {
-            while (b < n) {
-                op += 1;
-                b += a;
-            }
-        } else {
-            while (a < n) {
-                op += 1;
+        while (a <= n && b <= n) {
+            if (a < b) {
                 a += b;
+                op += 1;
+            } else {
+                b += a;
+                op += 1;
             }
         }
         cout << op << endl;

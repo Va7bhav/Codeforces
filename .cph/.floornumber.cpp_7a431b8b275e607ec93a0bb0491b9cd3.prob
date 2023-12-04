@@ -1,0 +1,1 @@
+{"name":"Local: floornumber","url":"d:\\... - ..- -.. -.--\\CodeForces\\floornumber.cpp","tests":[{"id":1701607849572,"input":"4\n7 3\n1 5\n22 5\n987 13","output":"3\n1\n5\n77"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\... - ..- -.. -.--\\CodeForces\\floornumber.cpp","group":"local","local":true}
