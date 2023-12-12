@@ -12,7 +12,7 @@ ll ways(ll n) {
 }
 int main() {
     ll m; cin >> m;
-    int res = -1;
+    ll res = -1;
     ll low = 0, high = 10e15;
     while (low <= high) {
         ll mid = low + (high - low) / 2;
